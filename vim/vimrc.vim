@@ -19,6 +19,7 @@ set splitbelow                 " Horizontal splits will automatically be below
 set splitright                 " Vertical splits will automatically be to the right
 set t_Co=256                   " Support 256 colors
 set background=dark            " tell vim what the background color looks like
+colorscheme industry           " One of default colorschemes
 
 filetype plugin indent on
 
