@@ -2,7 +2,7 @@
 
 function add_source {
     touch $2
-    grep -qxF "source $1" $2 && echo "$2 is already set" || echo "source $1" >> $2 && echo "Set up $2"
+    grep -qxF "source $1" $2 && echo "$2 is already set" || { echo "source $1" >> $2 && echo "Set up $2"; }
 }
 
 # Bash
