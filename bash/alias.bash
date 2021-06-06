@@ -11,6 +11,7 @@ alias ga='git add '
 
 # Misc 
 alias cls='printf "\033c"'
+alias hist='history '
 
 # tree
 alias t='tree -I __*'
