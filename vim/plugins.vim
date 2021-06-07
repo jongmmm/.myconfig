@@ -24,4 +24,5 @@ call plug#end()
 source ~/.myconfig/vim/plugins/nerdtree.vim
 source ~/.myconfig/vim/plugins/vim-easy-align.vim
 source ~/.myconfig/vim/plugins/vimslime.vim
+source ~/.myconfig/vim/plugins/python-syntax.vim
 
