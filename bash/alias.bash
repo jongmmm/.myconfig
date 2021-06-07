@@ -12,7 +12,6 @@ alias ga='git add '
 # Misc 
 alias cls='printf "\033c"'
 alias hist='history '
-alias vf='vifm '
 
 # tree
 alias tr='tree -I __*'

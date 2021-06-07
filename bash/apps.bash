@@ -9,5 +9,5 @@ if command -v nnn &> /dev/null; then
 fi
 
 if command -v vifm &> /dev/null; then
-    source ~/.myconfig/bash/apps/vifm.bash
+    source ~/.myconfig/bash/apps/vf.bash
 fi

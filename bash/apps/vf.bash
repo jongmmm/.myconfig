@@ -1,4 +1,4 @@
-vifm()
+vf()
 {
     local dst="$(command vifm . --choose-dir - "$@")"
     if [ -z "$dst" ]; then
