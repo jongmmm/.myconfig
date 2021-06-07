@@ -3,6 +3,7 @@
 "
 call plug#begin('~/.vim/plugged')
 """ Navigation
+Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'christoomey/vim-tmux-navigator'
 
