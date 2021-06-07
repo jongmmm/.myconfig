@@ -1,4 +1,3 @@
-abbr -a -- vf 'vifm $pwd'
 abbr -a .. 'cd ..'
 abbr -a ... 'cd ../..'
 abbr -a tr tree
