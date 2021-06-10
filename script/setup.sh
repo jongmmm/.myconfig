@@ -19,6 +19,7 @@ mkdir -p ~/.config/fish/functions
 
 ln -sf ~/.myconfig/fish/config.fish ~/.config/fish/config.fish
 ln -sf ~/.myconfig/fish/functions/* ~/.config/fish/functions/
+ln -sf ~/.myconfig/fish/conf.d/* ~/.config/fish/conf.d/
 
 # Vim
 ln -sf ~/.myconfig/vim/vimrc.vim ~/.vim/vimrc
