@@ -6,7 +6,7 @@ if executable('bat')
 endif
 
 if executable('jq')
-    fileviewer *.json jq . %f
+    fileviewer *.json jq . %f -C | cat
 endif
 
 let $rc="~/.config/vifm/vifmrc"
