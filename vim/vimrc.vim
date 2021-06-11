@@ -19,6 +19,8 @@ set splitright                 " Vertical splits will automatically be to the ri
 set t_Co=256                   " Support 256 colors
 set background=dark            " tell vim what the background color looks like
 colorscheme slate              " One of default colorschemes
+set hls                        " Highlight search
+set incsearch                  " Realtime search highlight
 
 filetype plugin indent on
 
