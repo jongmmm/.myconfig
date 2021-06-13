@@ -9,4 +9,8 @@ if executable('jq')
     fileviewer *.json jq . %f -C | cat
 endif
 
+if executable('lua') && system('test -e ~/local/z.lua/z.lua && echo 1 || echo 0')
+    command! z :execute 'cd' system('lua ~/local/z.lua/z.lua -e %a')
+endif
+
 let $rc="~/.config/vifm/vifmrc"
