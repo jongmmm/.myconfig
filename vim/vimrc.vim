@@ -30,6 +30,7 @@ endif
 
 source ~/.myconfig/vim/mapping.vim
 source ~/.myconfig/vim/abbrev.vim
+source ~/.myconfig/vim/command.vim
 source ~/.myconfig/vim/plugins/netrw.vim
 
 if isdirectory(expand('~/.vim/plugged'))    
