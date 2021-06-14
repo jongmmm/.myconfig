@@ -1,7 +1,7 @@
 abbr -a .. 'cd ..'
 abbr -a ... 'cd ../..'
-abbr -a tr tree -C -L 2
-abbr -a td tree -C -L 2 -d
+abbr -a tre tree -C -L 2
+abbr -a trd tree -C -L 3 -d
 abbr -a tm env SHELL=(command -v fish) tmux
 
 # git
