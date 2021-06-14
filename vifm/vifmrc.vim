@@ -10,7 +10,7 @@ if executable('jq')
 endif
 
 if executable('lua') && system('test -e ~/local/z.lua/z.lua && echo 1 || echo 0')
-    command! z :execute 'cd' system('lua ~/local/z.lua/z.lua -e %a')
+    command! Z :execute 'cd' system('lua ~/local/z.lua/z.lua -e %a')
 endif
 
 let $rc="~/.config/vifm/vifmrc"
