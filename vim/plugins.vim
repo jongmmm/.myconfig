@@ -6,6 +6,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'tpope/vim-vinegar'
 
 """ Editing
 Plug 'junegunn/vim-easy-align'
