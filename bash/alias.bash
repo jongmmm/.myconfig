@@ -14,6 +14,6 @@ alias cls='printf "\033c"'
 alias hist='history '
 
 # tree
-alias tre='tree -C -L 3'
-alias trd='tree -C -L 2 -d'
+alias trf='tree -C -L 3'
+alias trd='tree -C -L 4 -d'
 
