@@ -19,6 +19,9 @@ Plug 'vim-python/python-syntax'
 Plug 'scrooloose/nerdtree', { 'on':'NERDTreeToggle' }
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'ryanoasis/vim-devicons'
+
+""" Theme
+Plug 'vim-airline/vim-airline'
 call plug#end()
 
 """ Individual plug-in configs
