@@ -14,6 +14,7 @@ set number                     " Line numbers
 set rnu                        " Relative line numbers
 set signcolumn=number          " Slimmer number column
 set mouse=a                    " Enable your mouse
+set ttymouse=xterm2            " Mouse for TMUX 
 set splitbelow                 " Horizontal splits will automatically be below
 set splitright                 " Vertical splits will automatically be to the right
 set t_Co=256                   " Support 256 colors
