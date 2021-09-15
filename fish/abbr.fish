@@ -1,8 +1,7 @@
 abbr -a .. 'cd ..'
 abbr -a ... 'cd ../..'
-abbr -a trf tree -C -L 3
-abbr -a trd tree -C -L 4 -d
-abbr -a tm env SHELL=(command -v fish) tmux
+abbr -a tt tree -C -L 3 
+abbr -a ttt tree -C -L 4 -d
 
 # git
 abbr -a gr 'cd (git rev-parse --show-toplevel)'  # Jump to the repo root
