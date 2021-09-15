@@ -34,6 +34,9 @@ set-option -g default-terminal "xterm-256color"
 # Mouse support
 set -g mouse on
 
+# Shell
+set -g default-command "command fish"
+
 #-------------------------------------------------------#
 # Plug in 
 #-------------------------------------------------------#
