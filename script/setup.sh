@@ -22,6 +22,7 @@ ln -sf ~/.myconfig/fish/functions/* ~/.config/fish/functions/
 ln -sf ~/.myconfig/fish/conf.d/* ~/.config/fish/conf.d/
 
 # Vim
+mkdir -p ~/.vim
 ln -sf ~/.myconfig/vim/vimrc.vim ~/.vim/vimrc
 
 # Vifm
