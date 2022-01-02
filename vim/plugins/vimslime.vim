@@ -1,4 +1,4 @@
-if executable("tmux")
+if exists("$TMUX")
     let g:slime_target = "tmux"
 else
     let g:slime_target = "vimterminal"
