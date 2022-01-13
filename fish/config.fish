@@ -1,5 +1,6 @@
 set fish_greeting ""
 set -gx TERM xterm-256color
+set -Ux EDITOR vim
 fish_vi_key_bindings
 . ~/.myconfig/fish/abbr.fish
 
