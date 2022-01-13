@@ -24,6 +24,8 @@ ln -sf ~/.myconfig/fish/conf.d/* ~/.config/fish/conf.d/
 # Vim
 mkdir -p ~/.vim
 ln -sf ~/.myconfig/vim/vimrc.vim ~/.vim/vimrc
+ln -sf ~/.myconfig/vim/after ~/.vim/after
+ln -sf ~/.myconfig/vim/ftdetect/ ~/.vim/ftdetect
 
 # Vifm
 mkdir -p ~/.config/vifm
