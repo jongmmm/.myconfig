@@ -9,7 +9,6 @@ nnoremap <C-c> <Esc>
 nnoremap <C-q> <Esc>
 nnoremap <BS> X
 nnoremap ; :
-tnoremap ; :
 
  " Easy window navigation
 tnoremap <C-J> <C-w>j
