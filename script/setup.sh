@@ -26,7 +26,6 @@ mkdir -p ~/.vim
 ln -sf ~/.myconfig/vim/vimrc.vim ~/.vim/vimrc
 ln -sf ~/.myconfig/vim/after ~/.vim/after
 ln -sf ~/.myconfig/vim/ftdetect/ ~/.vim/ftdetect
-ln -sf ~/.myconfig/vim/syntax/ ~/.vim/syntax
 ln -sf ~/.myconfig/vim/ftplugin/ ~/.vim/ftplugin
 
 # Vifm

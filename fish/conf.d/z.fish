@@ -1,4 +1,4 @@
-if test -d ~/local/bin/z.lua
+if test -d ~/.local/share/z.lua/z.lua
+    lua ~/.local/share/z.lua/z.lua --init fish | source
     set -gx _ZL_CD cd
-    lua ~/local/bin/z.lua/z.lua --init fish | source
 end
