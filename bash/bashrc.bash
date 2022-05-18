@@ -15,3 +15,5 @@ export HISTIGNORE=$'[ \t]*:&:[fb]g:exit:ls:ll:la:vim'
 source ~/.myconfig/bash/path.bash
 source ~/.myconfig/bash/alias.bash
 source ~/.myconfig/bash/apps.bash
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

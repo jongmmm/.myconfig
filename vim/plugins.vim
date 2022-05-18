@@ -11,7 +11,6 @@ Plug 'tpope/vim-vinegar'
 """ Dev 
 Plug 'jpalardy/vim-slime'
 Plug 'vim-python/python-syntax'
-Plug 'JuliaEditorSupport/julia-vim', { 'for': 'julia' }
 
 """ Theme
 Plug 'vim-airline/vim-airline'
